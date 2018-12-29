@@ -1,6 +1,7 @@
 import movie
 import my_fresh_tomatoes
 
+# Creates a new movie object
 toy_story = movie.Movie(
     "Toy Story",
     "A story of a boy and his toys that come to life",
@@ -31,7 +32,8 @@ mowgli = movie.Movie(
 
 krampus = movie.Movie(
     "Krampus",
-    "A family has no longer its christmas spirit and soon is terrorfied by a demon that punish those who don't give value to the celebration",
+    "A family has no longer its christmas spirit and soon is terrified by a demon that punish"
+    + "those who don't give value to the celebration",
     "https://upload.wikimedia.org/wikipedia/en/1/1e/Krampus_poster.jpg",
     "https://youtu.be/h6cVyoMH4QE"
 )
@@ -44,5 +46,8 @@ spider_man = movie.Movie(
 )
 
 
+# The list that contains all movie objects
 movies = [toy_story, emperor, capitain_america, mowgli, krampus, spider_man]
+
+# Opens the movie page in a new browser window
 my_fresh_tomatoes.open_movies_page(movies)
