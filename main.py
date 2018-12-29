@@ -13,7 +13,7 @@ toy_story = movie.Movie(
 emperor = movie.Movie(
     "The Emperor",
     "A story about a emperor and his new jorney",
-    "https://upload.wikimedia.org/wikipedia/pt/6/69/Grooveposter.jpg",
+    "https://upload.wikimedia.org/wikipedia/pt/6/69/Grooveposter.jpg",  # NOQA
     "https://youtu.be/Hjvy8vc39kw"
     )
 
@@ -21,7 +21,7 @@ emperor = movie.Movie(
 capitain_america = movie.Movie(
     "Captain America",
     "The Captain America's story",
-    "https://upload.wikimedia.org/wikipedia/en/3/37/Captain_America_The_First_Avenger_poster.jpg",
+    "https://upload.wikimedia.org/wikipedia/en/3/37/Captain_America_The_First_Avenger_poster.jpg",  # NOQA
     "https://youtu.be/JerVrbLldXw"
     )
 
@@ -29,29 +29,37 @@ capitain_america = movie.Movie(
 mowgli = movie.Movie(
     "Mowgli",
     "A story about a boy that grows in the jungle",
-    "https://upload.wikimedia.org/wikipedia/pt/0/07/Mowgli.jpg",
+    "https://upload.wikimedia.org/wikipedia/pt/0/07/Mowgli.jpg",  # NOQA
     "https://youtu.be/FB1KTG-O1V0"
     )
 
 # Krampus movie: title, storyline, poster image and movie trailer
 krampus = movie.Movie(
     "Krampus",
-    "A family has no longer its christmas spirit and soon is terrified by a demon that punish"
-    + "those who don't give value to the celebration",
-    "https://upload.wikimedia.org/wikipedia/en/1/1e/Krampus_poster.jpg",
+    "A family has no longer its christmas spirit and soon is terrified by a"
+    "demon that punish those who don't give value to the celebration",
+    "https://upload.wikimedia.org/wikipedia/en/1/1e/Krampus_poster.jpg",  # NOQA
     "https://youtu.be/h6cVyoMH4QE"
     )
 
 # Spider-Man movie: title, storyline, poster image and movie trailer
 spider_man = movie.Movie(
     "Spider-Man",
-    "The story about a boy that was bitten by a spider and then receives great power",
-    "https://upload.wikimedia.org/wikipedia/en/f/f3/Spider-Man2002Poster.jpg",
+    "The story about a boy that was bitten by a spider and"
+    "then receives great power",
+    "https://upload.wikimedia.org/wikipedia/en/f/f3/Spider-Man2002Poster.jpg",  # NOQA
     "https://youtu.be/O7zvehDxttM"
     )
 
-# The list that contains all movie objects
-movies = [toy_story, emperor, capitain_america, mowgli, krampus, spider_man]
+# Set the movies the will be passed to the media file
+movies = [
+    toy_story,
+    emperor,
+    capitain_america,
+    mowgli,
+    krampus,
+    spider_man
+    ]
 
-# Opens the movie page in a new browser window
+# Open the HTML file in a web browser via the fresh_tomatoes.py file
 my_fresh_tomatoes.open_movies_page(movies)
