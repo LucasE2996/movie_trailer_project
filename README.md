@@ -1,4 +1,4 @@
-﻿# movie_trailer_project
+﻿# NANODEGREE PROJECT 1
 
 This project is a part of nanodegree course.
 
