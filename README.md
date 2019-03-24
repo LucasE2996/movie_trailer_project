@@ -1,4 +1,4 @@
-﻿# NANODEGREE PROJECT 1
+﻿# Nanodegree Project 1
 
 This project is a part of nanodegree course.
 
